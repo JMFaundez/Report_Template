@@ -1,0 +1,20 @@
+\documentclass{kthreport}
+% default language is English, but you can use Swedish definitions like this:
+% \documentclass[swedish]{kthreport}
+
+\title{Title}
+\subtitle{A nice subtitle}
+\author{Jos\'e Fa\'undez Alarc\'on}
+\Instructor{Instructor name}
+
+\begin{document}
+\counterwithin{lstlisting}{section} % TODO: dont know how to include this before begin{document}
+\maketitle
+A summary or introduction maybe?
+
+
+\input{section1}
+
+\input{appendix}
+
+\end{document}
